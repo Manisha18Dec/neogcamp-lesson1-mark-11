@@ -3,10 +3,13 @@ const luckyNumber=document.querySelector("#lucky-number");
 const checkNumberButton=document.querySelector("#check-number");
 
 function compareValues(sum ,luckyNumber){
-console.log(sum,luckyNumber)
+    if(sum%luckyNumber===0){
+console.log("your birthday is lucky 🙂")
+}else{
+    console.log("your birthday is not lucky 😔")
 }
 
-
+}
 
 
 

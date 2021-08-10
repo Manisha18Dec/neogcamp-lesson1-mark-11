@@ -17,6 +17,7 @@ console.log("your birthday is lucky 🙂")
 function checkBirthDateIsLucky(){
     const dob=dateOfBirth.value;
     const sum=calculateSum(date)
+    compareValues(sum,luckyNumber.value)
     console.log(sum);
 }
 
